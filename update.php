@@ -60,7 +60,7 @@ if(isset($_POST['update'])){
     <label>Name</label>
     <!-- apresentando dados armazenados sem atualização -->
     <input type="text" class="form-control"
-    placeholder="Enter your Name" name="name" autocomplete="off" value=<?php echo $name;?>>
+    placeholder="Enter your Name01" name="name" autocomplete="off" value=<?php echo $name;?>>
   </div>  
   <div class="mb-3">
     <label>Email</label>
