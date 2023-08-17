@@ -12,7 +12,7 @@ $result=mysqli_query($con,$sql);
 //executar consulta e retornar linha solicitada aramazenada
 $row=mysqli_fetch_assoc($result);
     $name=$row['name'];//pegar id listado no banco e armazenar na variavel id.
-    $email=$row['email'];//pegar email listado no banco e armazenar na variavel email.
+    $email=$row['email'];//pegar email listado no banco e armazenar na variavel email.--mudar dps
     $mobile=$row['mobile'];//pegar mobile listado no banco e armazenar na variavel mobile.
     $password=$row['password'];//pegar password listado no banco e armazenar na variavel password.
 
